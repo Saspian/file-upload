@@ -1,5 +1,6 @@
-# file-upload
+# file-upload-node
 This application helps to upload file to a MongoDB, and edit the data.
+React-node-multer
 
 ## Available script
 
