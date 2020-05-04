@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #282c34;
+}
+.App {
+  text-align: center;
+  color: aliceblue;
+}
+.App h1 {
+  text-shadow: rgb(39, 201, 201) 2px 2px;
+}
+.App h2 {
+  margin: 10px 0px;
+}
+.material-icons {
+  color: white;
+  font-size: 12px;
+  margin: 4px 0px 0px 5px;
+}
+.material-icons:hover,
+.delete:hover {
+  cursor: pointer;
+  color: rgb(39, 201, 201);
+}
+.image {
+  position: relative;
+}
+input[type='submit'],
+input[type='text'],
+input[type='email'] {
+  background: none;
+  color: aliceblue;
+}
+.custom-file-upload,
+input[type='submit'],
+input[type='text'],
+input[type='email'] {
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+input[type='submit'] {
+  cursor: pointer;
+}
+.custom-file-upload-edit {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 0px auto;
+  color: #000;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #000000;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
